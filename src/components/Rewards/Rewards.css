@@ -1,0 +1,193 @@
+
+  /* @media (max-width: 640px) {
+
+    .picture {
+     width: 300px;
+    }
+  }
+  @media (min-width: 1281px) {
+  .picture{
+    width: 500px;
+    }
+  }
+  @media (min-width: 640px) and (max-width: 1280px) {
+   .picture {
+     
+      width: 600px;
+      height: 100px;
+     
+    }
+  } */
+.border{
+    border: 36px solid rgb(88, 131, 88)
+}
+
+@media screen and (min-width:250px) and (max-width:480px) {
+ .create{
+  grid-template-columns: repeat(1, 1fr);
+ }
+.drink{
+  grid-template-columns: repeat(1, 1fr);
+}
+.coffee{
+  grid-template-columns: repeat(1, 1fr);
+}
+.coffees{
+  margin-left: 20px;
+}
+.handcrafted{
+  grid-template-columns: repeat(1, 1fr);
+}
+.handcrafteds{
+  margin-left: 10px;
+}
+.sandwitch{
+  grid-template-columns: repeat(1, 1fr);
+}
+.sandwitchs{
+  margin-left: 10px;
+}
+.marchendise{
+  grid-template-columns: repeat(1, 1fr);
+}
+.marchendises{
+  margin-left: 10px;
+}
+.freebies{
+  grid-template-columns: repeat(1, 1fr);
+}
+.freebiess{
+  margin-left: 10px;
+}
+.pay{
+  margin-left: 10px;
+}
+.faster{
+  margin-left: 10px;
+}
+.scan{
+
+flex: none;
+flex-direction: column;
+}
+.pay{
+ margin-right: 100px;
+ margin-top: 50px;
+}
+.save{
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.funds{
+  flex: none;
+  flex-direction: column;
+}
+.payload{
+  margin-right: 80px;
+  padding-top: 100px;
+}
+.register{
+  margin-right: 80px;
+  padding-top: 100px;
+}
+.questions{
+margin-left: 40px;
+padding-right: 20px;
+
+}
+.earning{
+  grid-template-columns: repeat(1, 1fr);
+  padding-right: 20px;
+}
+  }
+
+   /* Tablet View */
+   @media screen and (min-width:481px) and (max-width:768px) {
+    .create{
+      grid-template-columns: repeat(1, 1fr);
+     }
+     .drink{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .coffee{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .coffees{
+      margin-left: 20px;
+    }
+    .handcrafted{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .handcrafteds{
+      margin-left: 10px;
+    }
+    .sandwitch{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .sandwitchs{
+      margin-left: 10px;
+    }
+    .marchendise{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .marchendises{
+      margin-left: 10px;
+    }
+    .pay{
+      margin-left: 10px;
+    }
+    .faster{
+      margin-left: 10px;
+    }
+    .pay{
+      margin-left: 10px;
+    }
+    .faster{
+      margin-left: 10px;
+    }
+    .scan{
+    
+    flex: none;
+    flex-direction: column;
+    }
+    .pay{
+     margin-right: 100px;
+     margin-top: 50px;
+    }
+    .save{
+      margin-right: 100px;
+      margin-top: 50px;
+    }
+    .funds{
+      flex: none;
+      flex-direction: column;
+    }
+    .payload{
+      margin-right: 80px;
+      padding-top: 100px;
+    }
+    .register{
+      margin-right: 80px;
+      padding-top: 100px;
+    }
+    .questions{
+    margin-left: 40px;
+    padding-right: 20px;
+    
+    }
+    .earning{
+      grid-template-columns: repeat(1, 1fr);
+      padding-right: 20px;
+    }
+    
+   }
+  
+   /* Laptop View */
+   @media screen and (min-width:769px) and (max-width: 1280px) {
+    .create{
+      grid-template-columns: repeat(1, 1fr);
+     }
+     .drink{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
